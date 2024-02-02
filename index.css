@@ -1,0 +1,346 @@
+
+* {
+    /* font-family: "Nunito Sans", sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .first{
+     width: 3cm;
+     height:3cm ;
+     background-color: purple;
+     position: absolute;
+     top: 3rem;
+     left: 2rem;
+}
+.first:hover{
+    transform: rotate(45deg);
+    transition: all 2s;
+}
+.second{
+    width: 3cm;
+    height:3cm ;
+    background-color: purple;
+    position: absolute;
+    top: 3rem;
+    left: 15rem;
+}
+.second:hover{
+    transform: scaleY(.7);
+    transition: all 2s;
+}
+
+.third{
+    width: 3cm;
+    height:3cm ;
+    background-color: purple;
+    position: absolute;
+    left: 28rem; 
+    top: 3rem;
+}
+.third:hover{
+    transform: scaleX(.7);
+    transition: all 2s;
+}
+.forth{
+    width: 3cm;
+    height:3cm ;
+    background-color: purple;
+    position: absolute;
+    top: 3rem;
+    left: 40rem; 
+}
+.forth:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
+.fifth{
+    width: 3cm;
+    height:3cm ;
+    background-color: purple;
+    position: absolute;
+    top: 3rem;
+    left: 52rem; 
+}
+.fifth:hover{
+    transform: scaleX(1.8);
+    transition: all 2s;
+}
+.sixth{
+    width: 3cm;
+    height:3cm ;
+    background-color: black;
+    position: absolute;
+    top:13rem ;
+    left: 2rem;
+}
+.sixth:hover{
+    transform: scaleY(1.8);
+    transition: all 2s;
+}
+.seventh{
+    width: 3cm;
+    height:3cm ;
+    background-color: black;
+    position: absolute;
+    top: 13rem;
+    left: 15rem;
+}
+.seventh:hover{
+    transform: skewX(28deg);
+    transition: all 2s;
+}
+.eight{
+    width: 3cm;
+    height:3cm ;
+    background-color: black;
+    position: absolute;
+    top: 13rem;
+    left: 28rem;
+}
+.eight:hover{
+    transform:skewY(25deg);
+    transition: all 2s;
+}
+.ninth{
+    width: 3cm;
+    height:3cm ;
+    background-color: black;
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+}
+.ninth:hover{
+    transform: translate(25px , 25px);
+    transition: all 2s;
+}
+.tenth{
+    width: 3cm;
+    height:3cm ;
+    background-color: black;
+    position: absolute;
+    top: 13rem;
+    left: 52rem;
+}
+.tenth:hover{
+        transform: translate(25px);
+        transition: all 1s;
+    }
+.eleven{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(41, 128, 0, 0.278);
+    position: absolute;
+    top: 24rem;
+    left: 36rem;
+}
+.eleven:hover{
+    transform: skewY(35deg) scale(1.5);
+    transition: all 1s;
+}
+
+.twelve{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(41, 128, 0, 0.278);
+    position: absolute;
+    top: 24rem;
+    left: 22rem;
+}
+.twelve:hover{
+    transform: translate(0px ,25px);
+    transition: all 1s;
+}
+
+.thirteen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(41, 128, 0, 0.278);
+    position: absolute;
+    top: 35rem;
+    left: 36rem;
+}
+.thirteen:hover{
+  transform: 0;
+    transition: all 1s;
+}
+.fourteen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(128, 177, 105, 0.582);
+    position: absolute;
+    top: 35rem;
+    left: 22rem;
+}
+.fourteen:hover{
+     transform:rotateX(45deg);
+     transition: all 1s;
+}
+
+.fiftheen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    top: 45rem;
+    left: 28rem;
+   
+}
+
+.fiftheen:hover{
+   transform: perspective(200px) rotateX(45deg);
+   transform-origin: bottom;
+    transition: all 2.5s;
+}
+
+.sixteen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    top: 45rem;
+    left: 40rem;
+}
+.sixteen:hover{
+    transform: perspective(200px) rotateX(45deg);
+   transform-origin: top;
+    transition: all 2s;
+}
+
+.seventeen{
+     width: 3cm;
+    height:3cm ;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    top: 45rem;
+    left: 52rem;
+
+}
+.seventeen:hover{
+    transform: perspective(150px)  rotateX(45deg);
+   transform-origin: left;
+    transition: all 2s;
+}
+.eighteen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    top: 45rem;
+    left: 16rem;
+}
+.eighteen:hover{
+    transform-origin: bottom left;
+    transform: rotate(24deg);
+    transition: all 2s;
+}
+.ninteen{
+    width: 3cm;
+    height:3cm ;
+    background-color: rgba(0, 0, 0, 0.433);
+    position: absolute;
+    top: 45rem;
+    left: 2rem;
+}
+.ninteen:hover{
+    transform-origin: top right;
+    transform: rotate(24deg);
+    transition: all 2s;
+}
+.twenty{
+    width: 3cm;
+    height:3cm ;
+    background-color: palegreen;
+    position: absolute;
+    top: 55rem;
+    left: 2rem;
+}
+.twenty:hover{
+    transform: scale(1.5);
+    transition: all 2s;
+}
+.twentyo{
+    width: 3cm;
+    height:3cm ;
+    background-color: palegreen;
+    position: absolute;
+    top: 55rem;
+    left: 52rem;
+}
+.twentyo:hover{
+    transform-origin:  left;
+    transform: scaleX(2);
+    transition: all 1.5s;
+}
+.twentyt{
+    width: 3cm;
+    height:3cm ;
+    background-color: palegreen;
+    position: absolute;
+    top: 55rem;
+    left: 40rem;
+}
+.twentyt:hover{
+    transform-origin: right;
+    transform: scaleX(2);
+    transition: all 2s;
+}
+.twentyth{
+    width: 3cm;
+    height:3cm ;
+    background-color: palegreen;
+    position: absolute;
+    top: 55rem;
+    left: 28rem;
+}
+.twentyth:hover{
+    transform: scale(2);
+    transform-origin: bottom left;
+    transition: all 2s;
+}
+.twentyf{
+    width: 3cm;
+    height:3cm ;
+    background-color: palegreen;
+    position: absolute;
+    top: 55rem;
+    left: 16rem;
+}
+
+.twentyf:hover{
+    transform: scale(2);
+    transform-origin: top right;
+    transition: all 2s;
+}
+
+.last1{
+    width: 3cm;
+    height: 3cm;
+    background-color: aqua;
+    position: absolute;
+    top: 65rem;
+    left: 22rem;
+}
+
+.last1:hover{
+    transform-origin: top;
+    transform: scaleX(2);
+    transition: all 1.5s;
+}
+
+.last2{
+    width: 3cm;
+    height: 3cm;
+    background-color: aqua;
+    position: absolute;
+    top: 65rem;
+    left: 35rem;
+}
+
+.last2:hover{
+    transform-origin: bottom;
+    transform: scaleX(2);
+    transition: all 1.5s;
+}
+
